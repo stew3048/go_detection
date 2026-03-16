@@ -1,0 +1,21 @@
+# 資料集圖片（體積大，從 Roboflow 重新下載即可）
+datasets/
+
+# 訓練輸出（圖片、權重檔）
+runs/
+
+# YOLOv8 預訓練權重
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系統
+.DS_Store
+Thumbs.db
