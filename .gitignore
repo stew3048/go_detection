@@ -1,6 +1,9 @@
 # 資料集圖片（體積大，從 Roboflow 重新下載即可）
 datasets/
 
+# 預標輸出的圖片（labels 和 yolo_labels 保留）
+prelabel_output/images/
+
 # 訓練輸出（圖片、權重檔）
 runs/
 
