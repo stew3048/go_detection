@@ -24,7 +24,7 @@ TRAIN_DIR    = PROJECT_ROOT / "datasets" / "go-games-1" / "train" / "images"
 TEST_DIR     = PROJECT_ROOT / "runs" / "ood_test"
 OUTPUT_DIR   = PROJECT_ROOT / "runs" / "ood_results"
 
-CONF             = 0.20    # 推論信心門檻（稍低讓黃棋有機會被偵測到）
+CONF             = 0.10    # 推論信心門檻（與 AutoEncoder 一致，避免不公平比較）
 IOU              = 0.45
 ALIEN_THRESHOLD  = 7.5     # Mahalanobis 距離超過此值 → ALIEN（HSV 特徵校準後）
 FEATURE_SIZE     = 32      # 截圖後 resize 的大小

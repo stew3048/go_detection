@@ -39,7 +39,7 @@ STONE_RADIUS   = 28
 SEED           = 42
 
 # Mahalanobis 設定（與 ood_mahalanobis.py 一致）
-MAHA_CONF       = 0.20
+MAHA_CONF       = 0.10    # 與 AE 統一，公平比較
 MAHA_IOU        = 0.45
 ALIEN_THRESHOLD = 7.5
 FEATURE_SIZE    = 32
